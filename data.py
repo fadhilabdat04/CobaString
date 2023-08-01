@@ -2,23 +2,23 @@ from pyrogram.types import InlineKeyboardButton
 
 
 class Data:
-    generate_single_button = [InlineKeyboardButton("👑 Mulai Membuat string 👑", callback_data="generate")]
+    generate_single_button = [InlineKeyboardButton("Mulai Membuat string", callback_data="generate")]
 
     home_buttons = [
         generate_single_button,
-        [InlineKeyboardButton(text="🗿 Kembali Ke Awal 🗿", callback_data="home")]
+        [InlineKeyboardButton(text="Kembali Ke Awal", callback_data="home")]
     ]
 
     generate_button = [generate_single_button]
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("📥 Ini Grup ku  📥", url="https://t.me/obrolansuar")],
+        [InlineKeyboardButton("Join Group Gua Pantek", url="https://t.me/SiArabSupport")],
         [
             InlineKeyboardButton("Cara Pakeknya ❔", callback_data="help"),
-            InlineKeyboardButton("📌 Apa Masalah Kau 📌", callback_data="about")
+            InlineKeyboardButton("Apa Masalah lu Mek Anj", callback_data="about")
         ],
-        [InlineKeyboardButton("🤖 Daftar Repo Bot 🤖", url="https://t.me/Karc0de")],
+        [InlineKeyboardButton("Kalo Lu Males Deploy Bisa Order Di", url="https://t.me/SiArab_Store")],
     ]
 
     START = """
@@ -29,7 +29,7 @@ class Data:
 2) 𝙱𝙻𝙾𝙺𝙸𝚁 𝙱𝙾𝚃 𝙰𝚃𝙰𝚄 𝙳𝙴𝙻𝙰𝚃𝙴 𝙲𝙷𝙰𝚃 𝙼𝙴𝙼𝙴𝙺
 Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
 
-By @Karc0de
+By @SiArabSupport
     """
 
     HELP = """
@@ -46,13 +46,13 @@ By @Karc0de
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+Telegram Bot to generate Pyrogram and Telethon string session by @StringArabRobot
 
-Source Code : [Click Here](https://github.com/ArmanGG01/karstring)
+Source Code : [Click Here](https://github.com/)
 
 Framework : [Pyrogram](https://docs.pyrogram.org)
 
 Language : [Python](https://www.python.org)
 
-Developer : @PakkPoll
+Developer : @Arabnihnge
     """

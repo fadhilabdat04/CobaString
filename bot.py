@@ -1,7 +1,6 @@
 import env
 import logging
 from pyrogram import Client, idle
-import listen  # type: ignore
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 
 logging.basicConfig(
